@@ -1,6 +1,80 @@
-h1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 1.8rem;
     font-weight: 700;
-    font-size: 2rem;
-    text-transform: uppercase;
+    color: black;
     font-family: serif;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav ul li a:focus {
+    background-color: #f1f1f1;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+
+header .btn:hover {
+    background-color: #333333d6;
+}
+
+header .btn:focus {
+    background-color: #333333d6;
 }
