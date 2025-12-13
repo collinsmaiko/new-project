@@ -77,3 +77,43 @@ header .btn:hover {
 header .btn:focus {
     background-color: #333333d6;
 }
+
+
+
+/* Hero Section */
+.hero {
+    background-color: #007BFF; /* blue background */
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .hero-btn {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #007BFF;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero .hero-btn:hover {
+    background-color: #e6e6e6;
+}
