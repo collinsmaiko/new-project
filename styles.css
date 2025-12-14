@@ -147,6 +147,9 @@ header .btn:focus {
 .hero .content .text .cta_btn  button:hover {
     border: 2px solid rgb(0, 170, 255);
 }
+.hero .content .text .cta_btn  button:focus {
+    border: 2px solid rgb(0, 170, 255);
+}
 
 .hero .content .text .cta_btn  button:nth-child(1) {
     background-color: blue;
@@ -156,6 +159,11 @@ header .btn:focus {
 }
 
 .hero .content .text .cta_btn  button:nth-child(1):hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.hero .content .text .cta_btn  button:nth-child(1):focus {
     background-color: white;
     color: blue;
     border: 2px solid blue;
